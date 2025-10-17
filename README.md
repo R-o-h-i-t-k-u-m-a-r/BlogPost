@@ -1,16 +1,27 @@
-# React + Vite
+# Blog Post App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a blog post application developed using React and Redux along with context api. The application allows users to interact with a list of blog posts with the following features:
 
-Currently, two official plugins are available:
+### Key Functional Aspects
+*   Show the list of all blog posts.
+*   View the details of a specific blog post.
+*   Add a new blog post.
+*   Edit an existing blog post.
+*   Delete a blog post.
+*   Like a blog post.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Library Used
+*   React Router
+*   React Bootstrap
+*   Redux Toolkit
 
-## React Compiler
+## Redux Toolkit usage
+*   used to store blog record and perform CRUD operation globally.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Context API usage
+*   used for the track record of like status of each blog.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### How to run the project
+*   install nodejs 
+*   run command to install libraries - npm install
+*   run command to start the project - npm run dev
